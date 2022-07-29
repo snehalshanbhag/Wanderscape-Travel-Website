@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+body{
+	background: black;
+}
+
+main{
+	margin-left: 50px;
+	font-variant: small-caps;
+	font-size: 150%;
+	margin: 30px 30px;
+	padding: 10px 30px 10px;
+	background: #C48793;
+
+}
+a{
+	text-decoration: none;
+	color: #483C32;
+
+}
+img{
+	display: inline-block;
+	width: 170px;
+	height: 170px;
+	border-width: 10px 10px;
+	margin: 10px;
+	padding: 10px 15px;
+	background: white;
+}
+p{
+	padding: 10px;
+	margin: 0px auto;
+}
