@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jkgerhreh</title>
+	<link rel="stylesheet" type="text/css" href="css/traavel.css">
+</head>
+<body>
+<div class="row">
+		<div class="column">
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<h3>LOCAL DIALECTS</h3>
+				<p>Languages spoken : Indonesian</p>
+				<p>Must try Food : <p>1.NASI GORENG: Indonesian fried rice</p>
+				                   <p>2.NASI CAMPUR: the National dish</p>
+                                   <p>3.CHICKEN SATAY: barbecued yumminess</p>
+                                   <p>4.A ROYAL RIJSTTAFEL MEAL: influenced by the Dutch</p>
+                                   <p>5.BABI GULING: a suckling pig roast</p>
+                                   <p>6.GADO GADO: the Indonesian mega salad!</p>
+                                   <p>7.TEMPEH KECAP: fried fermented soyabeans</p>
+                                   <p>8.SAYUR URAP: coconut Javanese salad</p>
+                </p>
+				<p>Major Religions : Islam</p>
+				<p>Seasons : Dry season (April to October) and Monsoon season (November to March) </p>
+				<p>Currency : Indonesian rupiah</p>
+		</div>
+    </div>
+    <span onclick="openNav()"> <button>LOCAL DIALECTS</button></span>
+    <script>
+    	function openNav() {
+    		document.getElementById("myNav").style.width = "100%";
+    	}
+    	function closeNav() {
+    		document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</div>
+<div class="column">
+	<div class="modal-modal">
+		<button id="myBtn"> ACCOMODATION </button>
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<p><h1> - TOP 3 HOTELS IN INDONESIA - </h1></p>
+				<p><a href="https://www.marriott.com/hotels/travel/dpsuw-renaissance-bali-uluwatu-resort-and-spa/"><h2> 1.Renaissance Bali Uluwatu Resort & Spa </h2></a></p>
+				<p>
+					<img src="IMAGES\rena1.jpg">
+			        <img src="IMAGES\rena2.jpg">
+			        <img src="IMAGES\rena3.jpg">
+			        <img src="IMAGES\rena4.jpg">
+			        <img src="IMAGES\rena5.jpg">
+			        <img src="IMAGES\rena6.jpg">
+			    </p>
+			    <p><a href="https://galleryprawirotamanhotel.com/"><h2> 2. Gallery Prawirotaman Hotel </h2></a></p>
+			    <p>
+			    	<img src="IMAGES\gal6.jpg">
+			        <img src="IMAGES\gal4.jpg">
+			        <img src="IMAGES\gal1.jpg">
+			        <img src="IMAGES\gal2.jpg">
+			        <img src="IMAGES\gal5.jpg">
+			        <img src="IMAGES\gal3.jpg">
+			    </p>
+			    <p><a href="https://www.marriott.com/hotels/travel/mesmc-jw-marriott-hotel-medan/"><h2> 3.JW Marriott Hotel Medan </h2></a></p>
+			    <p>
+			    	<img src="IMAGES\jw1.jpg">
+			        <img src="IMAGES\jw2.jpg">
+			        <img src="IMAGES\jw3.jpg">
+			        <img src="IMAGES\jw4.jpg">
+			        <img src="IMAGES\jw5.jpg">
+			        <img src="IMAGES\jw6.jpg">
+			    </p>
+			</div>
+			<script>
+				var modal = document.getElementById("myModal");
+				var btn = document.getElementById("myBtn");
+				var span = document.getElementsByClassName("close")[0];
+				btn.onclick = function() {
+					modal.style.display = "block";
+				}
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}
+				</script>
+		</div>
+	</div>
+</div>
+</body>
+</html>
